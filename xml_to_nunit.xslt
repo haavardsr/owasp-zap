@@ -21,7 +21,7 @@
                   Original OWASP Report
                 </descrition>
                 <filePath>
-                  <xsl:value-of select="$sourceFolder"/>\xml_report.xml
+                  <xsl:value-of select="$sourceFolder"/>xml_report.xml
                 </filePath>
               </attachment>
               <attachment>
@@ -29,7 +29,7 @@
                   Original OWASP Report 2
                 </descrition>
                 <filePath>
-                  ($System.DefaultWorkingDirectory)\xml_report.xml
+                  ($System.DefaultWorkingDirectory)xml_report.xml
                 </filePath>
               </attachment>
             </attachments>
