@@ -17,11 +17,11 @@
           <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="UnitTestDemoTest.UnitTest1" classname="UnitTestDemoTest.UnitTest1" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-02-01 17:03:03Z" end-time="2019-02-01 17:03:04Z" duration="0.495486" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
             <attachments>
               <attachment>
-                <description>
+                <ddescription>
                   Original OWASP Report
                 </description>
                 <filePath>
-                  <xsl:value-of select="$(Build.ArtifactStagingDirectory)/test_results.xml" />
+                  <xsl:value-of select="$sourceFolder"/>test_results.xml
                 </filePath>
               </attachment>
               <attachment>
@@ -29,7 +29,7 @@
                   Original OWASP Report 2
                 </description>
                 <filePath>
-                  <xsl:value-of select="$System.DefaultWorkingDirectory"/>/test_results.xml
+                  ($System.DefaultWorkingDirectory)test_results.xml
                 </filePath>
               </attachment>
             </attachments>
