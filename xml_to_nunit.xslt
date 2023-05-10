@@ -14,7 +14,8 @@
         
         <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE" machine-name="Azure Hosted Agent" user="flacroix" user-domain="NORTHAMERICA" culture="en-US" uiculture="en-US" os-architecture="x86" />
         <test-suite type="TestSuite" id="0-1004" name="UnitTestDemoTest" fullname="UnitTestDemoTest" runstate="Runnable" testcasecount="2" result="Failed" site="Parent" start-time="2019-02-01 17:03:03Z" end-time="2019-02-01 17:03:04Z" duration="0.526290" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
-          <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="UnitTestDemoTest.UnitTest1" classname="UnitTestDemoTest.UnitTest1" runstate="Runnable" testcasecount="2" result="Failed" site="Parent" start-time="2019-02-01 17:03:03Z" end-time="2019-02-01 17:03:04Z" duration="0.495486" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="UnitTestDemoTest.UnitTest1" classname="UnitTestDemoTest.UnitTest1" runstate="Runnable" testcasecount="2" result="Failed" site="Parent" start-time="2019-02-01 17:03:03Z" end-time="2019-02-01 17:03:
+
             <attachments>
               <attachment>
                 <description>
