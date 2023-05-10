@@ -26,9 +26,9 @@
                 </filePath>
               </attachment>
               <attachment>
-                <descrition>
+                <description>
                   Original OWASP Report 2
-                </descrition>
+                </description>
                 <filePath>
                   ($System.DefaultWorkingDirectory)zap-report.xml
                 </filePath>
