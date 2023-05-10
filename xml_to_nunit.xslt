@@ -21,7 +21,7 @@
                   Original OWASP Report
                 </description>
                 <filePath>
-                  <xsl:value-of select="$sourceFolder"/>test_results.xml
+                  <xsl:value-of select="$sourceFolder"/>/test_results.xml
                 </filePath>
               </attachment>
               <attachment>
