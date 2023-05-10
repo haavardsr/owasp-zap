@@ -29,7 +29,7 @@
                   Original OWASP Report 2
                 </description>
                 <filePath>
-                  ($System.DefaultWorkingDirectory)test_results.xml
+                  ($System.DefaultWorkingDirectory)/test_results.xml
                 </filePath>
               </attachment>
             </attachments>
