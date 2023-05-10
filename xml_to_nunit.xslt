@@ -33,7 +33,6 @@
                 </filePath>
               </attachment>
             </attachments>
-            <xsl:for-each select
             <xsl:for-each select="OWASPZAPReport/site/alerts/alertitem">
             <test-case id="0-1001" name="{name}" fullname="{name}" methodname="Stub" classname="UnitTestDemoTest.UnitTest1" runstate="NotRunnable" seed="400881240" result="Failed" label="Invalid" start-time="{$generatedDateTime}" end-time="{$generatedDateTime}" duration="0" asserts="0">
               <failure>
