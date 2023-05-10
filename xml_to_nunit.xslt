@@ -21,7 +21,7 @@
                   Original OWASP Report
                 </description>
                 <filePath>
-                  <xsl:value-of select="$(Build.ArtifactStagingDirectory)/test_results.xml" />
+                  <xsl:value-of select="$sourceFolder"/>\tests\xml_report.xml
                 </filePath>
               </attachment>
               <attachment>
@@ -29,7 +29,7 @@
                   Original OWASP Report 2
                 </description>
                 <filePath>
-                  <xsl:value-of select="$System.DefaultWorkingDirectory"/>/test_results.xml
+                  ($System.DefaultWorkingDirectory)\tests\xml_report.xml
                 </filePath>
               </attachment>
             </attachments>
